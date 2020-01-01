@@ -68,24 +68,24 @@
 // - 3 of diamonds 
 
 
-// B) Word Play
-// Create a form where users may enter a sentence.
-// Turn that sentence into an array using the split method.
-// Then, 
-// loop through this array to build a new array out of
-//  every word in the sentence that is 3 or more characters in length.
-// Finally, reverse the order of the new array, join it back together into a string
-// , and display it to the user.
+// // B) Word Play
+// // Create a form where users may enter a sentence.
+// // Turn that sentence into an array using the split method.
+// // Then, 
+// // loop through this array to build a new array out of
+// //  every word in the sentence that is 3 or more characters in length.
+// // Finally, reverse the order of the new array, join it back together into a string
+// // , and display it to the user.
 
-let sentence = window.prompt('Enter a sentence');
+// let sentence = window.prompt('Enter a sentence');
 
-let userSentence = sentence.split(' ');
-let sentenceArray =[]
- userSentence.map(s => {
-    if(s.length >= 3) {
-      sentenceArray.push(s);
-    }
-})
+// let userSentence = sentence.split(' ');
+// let sentenceArray =[]
+//  userSentence.map(s => {
+//     if(s.length >= 3) {
+//       sentenceArray.push(s);
+//     }
+// })
 
 
 
